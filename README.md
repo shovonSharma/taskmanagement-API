@@ -23,6 +23,27 @@ This project demonstrates clean backend design and can be extended with authenti
 
 ---
 
-### Project Screenshot
+## Project Screenshot
 
-![]()
+![screenshot](https://github.com/shovonSharma/taskmanagement-API/blob/main/tx.jpg)
+
+## API Endpoints
+### Create a task
+POST /tasks/
+{
+  "title": "Learn FastAPI",
+  "description": "Build CRUD app",
+  "completed": false
+}
+
+### Get all tasks
+GET /tasks/
+
+### Get a task by ID
+GET /tasks/{task_id}
+
+### Update a task
+PUT /tasks/{task_id}
+
+### Delete a task
+DELETE /tasks/{task_id}
